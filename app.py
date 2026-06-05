@@ -21,7 +21,7 @@ if 'qa_chain' not in st.session_state:
     st.session_state.qa_chain = None
 
 # ── Sidebar: upload + process ──
-with st.sidebar('Upload PDF'):
+with st.sidebar:
     st.header("Upload PDF")
     uploaded = st.file_uploader("Choose a PDF", type="pdf")
 

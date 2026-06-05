@@ -133,7 +133,11 @@ def query(chain, question: str):
 
     sources = []
     for doc in res['context']:
-        page = doc.metadata.get('page', '?')
+        page = doc.metadata.get('page', 0)
+        try:
+            page = int(page)
+        except (ValueError, TypeError):
+            page = 0
         snippet = doc.page_content[:120].replace('\n', ' ')
         sources.append({'page': page+1, 'snippet': snippet})
 
