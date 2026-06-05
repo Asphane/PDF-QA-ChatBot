@@ -1,0 +1,16 @@
+# Virtual environment
+pdfvenv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS metadata
+.DS_Store
+
+# Streamlit config/ignore files
+.streamlitignore
+.streamlit/
