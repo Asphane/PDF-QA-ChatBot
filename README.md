@@ -14,7 +14,7 @@ An interactive, responsive **RAG (Retrieval-Augmented Generation)** web applicat
 
 Below is a preview of the ChatBot answering questions and referencing precise source snippets from the document:
 
-![Application Interface](Screenshot 2026-06-05 at 11.24.58.png)
+![Application Interface](Screenshot%202026-06-05%20at%2011.24.58.png)
 
 ---
 
